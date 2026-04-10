@@ -47,9 +47,9 @@ function convertCurrency(amount, price, symbol) {
         total = formatCurrencyBRL(total).replace("R$", "")
 
         // Verifica se o resultado é um numero
-        if(isNaN(total)){
+        /*if(isNaN(total)){
             return alert("Por favor digite o valor corretamente, para ser convertido.")
-        }
+        }*/
 
         // Exibir o resultado total
         result.textContent = `${total} Reais`
